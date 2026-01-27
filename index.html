@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>4F6D's Digital Playroom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- CRT + Pixel Dust -->
+<div class="crt"></div>
+<div class="pixel-dust"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <h1 class="hero-title">
+    4F6D<br>
+    <span>BEGINNER GAME DEV & CODE MAKER</span>
+  </h1>
+
+  <button class="press-start hero-start">PRESS START</button>
+
+  <!-- STAR LAYERS -->
+  <div class="stars layer1"></div>
+  <div class="stars layer2"></div>
+  <div class="stars layer3"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="section-title">PLAYER 1 – ABOUT ME</h2>
+
+  <div class="about-layout pixel-box">
+
+    <div class="pixel-avatar">
+      <img src="images/avatar.png" alt="Rene Avatar">
+    </div>
+
+    <div class="about-box">
+      <p>
+        Hi, I’m 4F6D, a computer science student and hobby developer based in Germany.
+        I’m aspiring to become a graphics and game developer, with a strong interest in retro games.
+        In my free time, I work on small projects and experiment with game-related technologies.
+        Feel free to get in touch!
+      </p>
+
+      <div class="bmc-wrapper">
+        <a class="bmc-button" href="https://buymeacoffee.com/4f6d" target="_blank">
+          ☕ Buy Me a Coffee
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title">GAME SELECT (Projects)</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card pixel-box">
+      <div class="project-left">
+        <img src="images/QSF.png" class="project-img">
+      </div>
+
+      <div class="project-right">
+        <h3 class="project-title">QuickSpamFilter</h3>
+        <p class="project-desc">QuickSpamFilter is a lightweight World of Warcraft addon designed to keep your chat clean and distraction-free.</p>
+
+        <div class="project-links">
+          <a href="https://www.curseforge.com/wow/addons/quickspamfilter" target="_blank">CurseForge</a>
+        </div>
+
+        <div class="tag-row">
+          <span class="tag">World of Warcraft</span>
+          <span class="tag">Lua</span>
+          <span class="tag">Addon</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card pixel-box">
+      <div class="project-left">
+        <img src="images/archive-terminal.png" class="project-img">
+      </div>
+
+      <div class="project-right">
+        <h3 class="project-title">Archive Terminal</h3>
+        <p class="project-desc">Ein interaktives Terminal, das fiktive Logs und Geräte durchsucht.</p>
+
+        <div class="project-links">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://itch.io/" target="_blank">itch.io</a>
+        </div>
+
+        <div class="tag-row">
+          <span class="tag">JavaScript</span>
+          <span class="tag">Web</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card pixel-box">
+      <div class="project-left">
+        <img src="images/static-field.png" class="project-img">
+      </div>
+
+      <div class="project-right">
+        <h3 class="project-title">Static Field</h3>
+        <p class="project-desc">Ein visuelles Experiment mit Noise, Scanlines und subtilen Bewegungen.</p>
+
+        <div class="project-links">
+          <a href="https://github.com/" target="_blank">GitHub</a>
+          <a href="https://itch.io/" target="_blank">itch.io</a>
+        </div>
+
+        <div class="tag-row">
+          <span class="tag">Shaders</span>
+          <span class="tag">Visual</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title">SKILL STATS</h2>
+
+  <div class="skills-list">
+    <div class="skill-item"><span>Java</span><div class="bar"><div style="width:50%"></div></div></div>
+    <div class="skill-item"><span>Unreal Engine</span><div class="bar"><div style="width:30%"></div></div></div>
+    <div class="skill-item"><span>C++</span><div class="bar"><div style="width:50%"></div></div></div>
+    <div class="skill-item"><span>Python</span><div class="bar"><div style="width:30%"></div></div></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2 class="section-title">LEVEL PROGRESSION (Experience)</h2>
+  <div class="timeline pixel-box">
+    <div class="timeline-item">2025 – Assistant/Developer at my University</div>
+    <div class="timeline-item">2023 – Technician at a IT-Company</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="section-title">CONTACT TERMINAL</h2>
+
+  <div class="contact-socials">
+    <a href="https://github.com/4F6D" class="social-btn" target="_blank">
+      <img src="images/github.png" alt=""> GitHub
+    </a>
+
+    <a href="https://4f6d.itch.io" class="social-btn" target="_blank">
+      <img src="images/itch.png" alt=""> itch.io
+    </a>
+
+    <a href="https://discord.com/users/4f6d" class="social-btn" target="_blank">
+      <img src="images/discord.png" alt=""> Discord
+    </a>
+  </div>
+
+</section>
+
+<footer class="footer">
+  INSERT COIN — THANK YOU FOR PLAYING — © 2026 4F6D
+</footer>
+
+<audio id="start-sound" src="sounds/start.mp3" preload="auto"></audio>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const startBtn = document.querySelector('.hero-start');
+  const startSound = document.getElementById('start-sound');
+  const hero = document.querySelector('.hero');
+  const about = document.getElementById('about');
+
+  startBtn.addEventListener('click', () => {
+    startSound.currentTime = 0;
+    startSound.play().catch(()=>{});
+    hero.classList.add('fade-out');
+    setTimeout(() => about.scrollIntoView({behavior:'smooth'}), 600);
+  });
+});
+
+// CRT POWER OFF EFFECT
+window.addEventListener("beforeunload", () => {
+  const fx = document.createElement("div");
+  fx.className = "crt-poweroff";
+  document.body.appendChild(fx);
+});
+</script>
+
+</body>
+</html>
