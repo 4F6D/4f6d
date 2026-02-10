@@ -1,162 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>4F6D's Digital Playroom</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>4F6D's Digital Playground</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-
-<!-- CRT + Pixel Dust -->
-<div class="crt"></div>
-<div class="pixel-dust"></div>
-
-<!-- HERO -->
-<section class="hero">
-  <h1 class="hero-title">
-    4F6D<br>
-    <span>BEGINNER GAME DEV & CODE MAKER</span>
-  </h1>
-
-  <button class="press-start hero-start">PRESS START</button>
-
-  <!-- STAR LAYERS -->
-  <div class="stars layer1"></div>
-  <div class="stars layer2"></div>
-  <div class="stars layer3"></div>
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="section">
-  <h2 class="section-title">PLAYER 1 – ABOUT ME</h2>
-
-  <div class="about-layout pixel-box">
-
-    <div class="pixel-avatar">
-      <img src="images/avatar.png" alt="Rene Avatar">
+<header>
+  <div class="top">
+    <div class="brand">
+      <b>4F6D</b>
+      <small>GAME DEV / PROGRAMMING • RETRO</small>
     </div>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Links</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="about-box">
+<main class="wrap">
+  <div class="hero">
+    <section class="panel">
+      <div class="hd">
+        <div class="t">Start Menu</div>
+        <div class="badge">build 1997</div>
+      </div>
+      <div class="body">
+        <h1>Playground<span class="cursor"></span></h1>
+        <p class="sub">
+          Game Development & Graphics-/Programming. I work on small projects and share
+          them here for my friends to see.
+        </p>
+        <div class="btns">
+          <a class="btn primary" href="#projects">▶ Projekte</a>
+          <a class="btn" href="#contact">Links</a>
+          <a class="btn" href="https://github.com/4F6D">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="hd">
+        <div class="t">Preview</div>
+        <div class="badge">320×240</div>
+      </div>
+      <div class="body">
+        <div class="shot">
+          <img src="assets/preview/Preview.png" alt="Gameplay Preview">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="projects" class="panel">
+    <div class="hd">
+      <div class="t">Projects</div>
+      <div class="badge">selected work</div>
+    </div>
+    <div class="body">
+      <div class="projects">
+
+        <article class="card">
+          <div class="thumb">
+            <img src="assets/projects/QuickSpamFilter.png" alt="QuickSpamFilter">
+            <div class="px"></div>
+          </div>
+          <div class="meta">
+            <h3>QuickSpamFilter</h3>
+            <p>QuickSpamFilter keeps your WoW chat clean by instantly blocking unwanted spam messages.</p>
+            <div class="tags">
+              <span class="tag">Lua</span><span class="tag">Addon</span>
+            </div>
+            <div class="links">
+              <a href="https://www.curseforge.com/wow/addons/quickspamfilter">Download</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <section id="about" class="panel span-6">
+      <div class="hd">
+        <div class="t">About</div>
+        <div class="badge">Berlin</div>
+      </div>
+      <div class="body">
+        <p>
+          Hi, I am <b>4F6D</b>. I love to learn about game development and programming.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="panel span-6">
+      <div class="hd">
+        <div class="t">Skills</div>
+        <div class="badge">stack</div>
+      </div>
+      <div class="body">
+        <ul>
+          <li><b>Engines:</b> Unity, Godot, Unreal Engine</li>
+          <li><b>Languages:</b> Java, C/C++, GDScript, Python</li>
+          <li><b>Focus:</b> Studying</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+  <section id="contact" class="panel">
+    <div class="hd">
+      <div class="t">Links</div>
+      <div class="badge">links</div>
+    </div>
+    <div class="body">
       <p>
-        Hi, I’m 4F6D, a computer science student and hobby developer based in Germany.
-        I’m aspiring to become a graphics and game developer, with a strong interest in retro games.
-        In my free time, I work on small projects and experiment with game-related technologies.
-        Feel free to get in touch!
+        GitHub: <b>https://github.com/4F6D</b><br/>
+        Itch: <b>https://4f6d.itch.io</b><br/>
+        Buymeacoffee: <b>https://buymeacoffee.com/4f6d</b>
       </p>
-
-      <div class="bmc-wrapper">
-        <a class="bmc-button" href="https://buymeacoffee.com/4f6d" target="_blank">
-          ☕ Buy Me a Coffee
-        </a>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <h2 class="section-title">GAME SELECT (Projects)</h2>
-
-  <div class="project-grid">
-
-    <div class="project-card pixel-box">
-      <div class="project-left">
-        <img src="images/QSF.png" class="project-img">
-      </div>
-
-      <div class="project-right">
-        <h3 class="project-title">QuickSpamFilter</h3>
-        <p class="project-desc">QuickSpamFilter is a lightweight World of Warcraft addon designed to keep your chat clean and distraction-free.</p>
-
-        <div class="project-links">
-          <a href="https://www.curseforge.com/wow/addons/quickspamfilter" target="_blank">CurseForge</a>
-        </div>
-
-        <div class="tag-row">
-          <span class="tag">World of Warcraft</span>
-          <span class="tag">Lua</span>
-          <span class="tag">Addon</span>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section">
-  <h2 class="section-title">SKILL STATS</h2>
-
-  <div class="skills-list">
-    <div class="skill-item"><span>Java</span><div class="bar"><div style="width:50%"></div></div></div>
-    <div class="skill-item"><span>Unreal Engine</span><div class="bar"><div style="width:30%"></div></div></div>
-    <div class="skill-item"><span>C++</span><div class="bar"><div style="width:50%"></div></div></div>
-    <div class="skill-item"><span>Python</span><div class="bar"><div style="width:30%"></div></div></div>
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience" class="section">
-  <h2 class="section-title">LEVEL PROGRESSION (Experience)</h2>
-  <div class="timeline pixel-box">
-    <div class="timeline-item">2025 – Assistant/Developer at my University</div>
-    <div class="timeline-item">2023 – Technician at a IT-Company</div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <h2 class="section-title">CONTACT TERMINAL</h2>
-
-  <div class="contact-socials">
-    <a href="https://github.com/4F6D" class="social-btn" target="_blank">
-      <img src="images/github.png" alt=""> GitHub
-    </a>
-
-    <a href="https://4f6d.itch.io" class="social-btn" target="_blank">
-      <img src="images/itch.png" alt=""> itch.io
-    </a>
-
-    <a href="https://discord.com/users/4f6d" class="social-btn" target="_blank">
-      <img src="images/discord.png" alt=""> Discord
-    </a>
-  </div>
-
-</section>
-
-<footer class="footer">
-  INSERT COIN — THANK YOU FOR PLAYING — © 2026 4F6D
-</footer>
-
-<audio id="start-sound" src="sounds/start.mp3" preload="auto"></audio>
+  <footer>
+    © <span id="y"></span> 4F6D • PS1/N64 minimal UI
+  </footer>
+</main>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const startBtn = document.querySelector('.hero-start');
-  const startSound = document.getElementById('start-sound');
-  const hero = document.querySelector('.hero');
-  const about = document.getElementById('about');
-
-  startBtn.addEventListener('click', () => {
-    startSound.currentTime = 0;
-    startSound.play().catch(()=>{});
-    hero.classList.add('fade-out');
-    setTimeout(() => about.scrollIntoView({behavior:'smooth'}), 600);
+  document.querySelectorAll('nav a').forEach(a=>{
+    a.addEventListener('click', e=>{
+      const id = a.getAttribute('href');
+      if(id.startsWith('#')){
+        e.preventDefault();
+        document.querySelector(id)?.scrollIntoView({behavior:'smooth'});
+      }
+    });
   });
-});
-
-// CRT POWER OFF EFFECT
-window.addEventListener("beforeunload", () => {
-  const fx = document.createElement("div");
-  fx.className = "crt-poweroff";
-  document.body.appendChild(fx);
-});
+  document.getElementById('y').textContent = new Date().getFullYear();
 </script>
-
 </body>
 </html>
